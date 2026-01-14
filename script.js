@@ -1,5 +1,5 @@
 // CONFIG: Replace with your Cloudflare Worker URL
-const API_BASE = 'https://upload.fetched.workers.dev'; 
+const API_BASE = 'https://upload.fetched.workers.dev';
 
 let MODERATOR_TOKEN = '';
 
