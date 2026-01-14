@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fablous SDK Moderation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌍 Fablous SDK Moderation</h1>
+      <div id="auth-section">
+        <input type="password" id="token-input" placeholder="Moderator Token" />
+        <button id="login-btn">Login</button>
+      </div>
+    </header>
+
+    <main id="main-content" style="display: none;">
+      <div class="controls">
+        <button id="refresh-btn">🔄 Refresh</button>
+        <span id="status"></span>
+      </div>
+      <div id="worlds-list" class="worlds-grid"></div>
+    </main>
+
+    <div id="error-modal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="error-message"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
